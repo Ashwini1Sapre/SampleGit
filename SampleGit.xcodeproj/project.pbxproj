@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD68503F217EFD0A009AE936 /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD68503E217EFD0A009AE936 /* firstViewController.m */; };
 		DD7D1C03217DA71F00CDE454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D1C02217DA71F00CDE454 /* AppDelegate.m */; };
 		DD7D1C06217DA71F00CDE454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D1C05217DA71F00CDE454 /* ViewController.m */; };
 		DD7D1C09217DA71F00CDE454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7D1C07217DA71F00CDE454 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD68503D217EFD0A009AE936 /* firstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		DD68503E217EFD0A009AE936 /* firstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
 		DD7D1BFE217DA71F00CDE454 /* SampleGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7D1C01217DA71F00CDE454 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD7D1C02217DA71F00CDE454 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		DD7D1BF5217DA71F00CDE454 = {
 			isa = PBXGroup;
 			children = (
+				DD68503D217EFD0A009AE936 /* firstViewController.h */,
+				DD68503E217EFD0A009AE936 /* firstViewController.m */,
 				DD7D1C00217DA71F00CDE454 /* SampleGit */,
 				DD7D1C19217DA73500CDE454 /* SampleGitTests */,
 				DD7D1C24217DA73500CDE454 /* SampleGitUITests */,
@@ -265,6 +270,7 @@
 				DD7D1C06217DA71F00CDE454 /* ViewController.m in Sources */,
 				DD7D1C11217DA73500CDE454 /* main.m in Sources */,
 				DD7D1C03217DA71F00CDE454 /* AppDelegate.m in Sources */,
+				DD68503F217EFD0A009AE936 /* firstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
